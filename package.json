@@ -1,0 +1,27 @@
+{
+  "name": "what-had-they-done",
+  "version": "1.0.0",
+  "description": "to see what had my customer done in my website",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "test:server": "nodemon example/server.js",
+    "preview": "node example/puppeteer.js"
+  },
+  "author": "zaber",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "lodash-es": "^4.17.15",
+    "puppeteer": "^1.20.0",
+    "rollup": "^1.25.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "express": "^4.17.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
